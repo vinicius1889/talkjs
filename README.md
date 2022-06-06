@@ -1,4 +1,6 @@
-# [libraryNameWithSpacesAndUpperCases]
+# [TalkJS]
+
+# TODO: fill the readme correctly
 
 [![Continuous Integrations](https://github.com/[repositoryOwner]/[repositoryName]/actions/workflows/continuous-integrations.yaml/badge.svg?branch=main)](https://github.com/[repositoryOwner]/[repositoryName]/actions/workflows/continuous-integrations.yaml)
 [![Build Status](https://travis-ci.org/[repositoryOwner]/[repositoryName].svg?branch=master)](https://travis-ci.org/[repositoryOwner]/[repositoryName])

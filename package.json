@@ -60,5 +60,8 @@
   "bugs": {
     "url": "https://github.com/vinicius1889/talkjs/issues"
   },
-  "homepage": "https://github.com/vinicius1889/talkjs#readme"
+  "homepage": "https://github.com/vinicius1889/talkjs#readme",
+  "dependencies": {
+    "tslib": "^2.4.0"
+  }
 }

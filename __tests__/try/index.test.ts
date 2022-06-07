@@ -32,7 +32,7 @@ describe('Try tests', () => {
       undefined,
     );
 
-    expect(success).toBeTruthy();
+    expect(success).toBe(2);
   });
 
   test('should execute getOrElse with delay', async () => {

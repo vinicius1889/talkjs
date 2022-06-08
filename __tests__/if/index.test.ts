@@ -32,4 +32,15 @@ describe('If tests', () => {
     expect(resultTrue).toBeTruthy();
     expect(resultFalse).toBeFalsy();
   });
+
+  test('should execute function onSuccess', async () => {
+    const success = await If.of(20)
+      .is(20)
+      .onSuccess(async () => {
+        return `success`;
+      })
+      .checkAndExecute();
+
+    expect(success).toEqual('success');
+  });
 });

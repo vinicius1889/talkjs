@@ -60,6 +60,16 @@ if (isValid) {
 }
 ```
 
+```javascript
+const success = await If.of(20)
+  .is(20)
+  .onSuccess(async () => {
+    return `success`;
+  })
+  .checkAndExecute();
+// success === 'success'
+```
+
 ## Match
 
 ```javascript
